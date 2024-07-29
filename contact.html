@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BookCreating & Publishing</title>
+    <style>
+      .hero-text {
+    text-align: center;
+     color: #333;
+    font-size: 50px;
+    margin-top: 1vh;
+    font-weight:  200;}
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url( images/backgroundd.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+     <!-- Add the Bootstrap CSS file -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- Add the Bootstrap JS file (jQuery is required for Bootstrap JS) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+ 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="images/fav/favicon-32x32.png" alt="logo"></a><a class="navbar-brand" href="#">MyStoryRealm</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.php">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.php">Login</a>
+            </li>
+             
+          </ul>
+        </div>
+      </nav>
+       <br><br>
+    <div class="container">
+        <h1 class="hero-text">Contact Us</h1>
+        <p>If you have any questions or need support, feel free to reach out to us using the contact form below or through our contact details.</p>
+        
+        <form action="contact_form_submission.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+            
+            <button class="btn-primary"type="submit">Send Message</button>
+        </form>
+        
+        <h2>Contact Details</h2>
+        <p>Email: support@bookcreatingpublishing.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Publishing Lane, Booktown, BK 56789</p>
+    </div>
+</body>
+</html>
