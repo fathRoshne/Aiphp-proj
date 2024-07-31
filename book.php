@@ -120,7 +120,7 @@
                 <option value="Mystery">Mystery</option>
                 <option value="Fantasy" >Fantasy</option>
                 <option value="Horror">Horror</option>
-                <option value="Triller">Triller</option>
+                <option value="Thriller">Thriller</option>
                 <option value="Biography">Biography</option>
                 <option value="Self-help">Self-help</option>
                 <option value="Other">Other</option>
